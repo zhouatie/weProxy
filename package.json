@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/index.js",
-    "startTest": "node ./src/test.js"
+    "start": "nodemon ./src/index.js",
+    "startTest": "nodemon ./src/test.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,7 @@
   "dependencies": {
     "http-proxy": "^1.18.0",
     "koa": "^2.11.0",
-    "koa-router": "^8.0.8"
+    "koa-router": "^8.0.8",
+    "koa-sslify": "^4.0.3"
   }
 }
