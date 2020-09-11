@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http-proxy": "^1.18.0",
+    "http-proxy": "^1.18.1",
     "koa": "^2.11.0",
     "koa-router": "^8.0.8",
     "koa-sslify": "^4.0.3"
